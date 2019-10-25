@@ -1,8 +1,9 @@
 <?php
-include 'assets/php/app.php';
+session_start();
 require 'assets/php/connection.php';
-
+include 'assets/php/app.php';
 ?>
+
 <!DOCTYPE html>
 
 <html lang="en">
@@ -10,6 +11,7 @@ require 'assets/php/connection.php';
     <meta charset="UTF-8">
     <title>Log yourself in exercise</title>
 </head>
+
 <body>
 <H1>Log yourself in</H1>
 <p>Please provide the email you used to register with us and your password.</p>
